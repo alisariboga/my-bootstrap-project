@@ -134,3 +134,8 @@ pl-3  :padding left
 pr-6  :padding right
 pt-4  : patting top
 pb-3  :patting buttom
+
+-----------
+@media is used for conditions
+Rotate the image by 25 deg if the screen size is fgreater than or equal to 768
+Do not rotate if the screen size is less than 767

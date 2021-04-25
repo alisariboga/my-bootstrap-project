@@ -57,8 +57,30 @@ max-width
         margin-top: 5%;
     }
 }
-
-.doenload-links{
-    display: flex;
+.download-links{
+    display:flex;
     justify-content: center;
+}
+.fas{
+   color: #ffd166; 
+   margin-left: 10%;
+}
+/* apply style for id=comment of p tag
+# = id */
+/* 2 percent top-buttom and 3 percent right left padding
+For entire comments section */
+#comments{
+    padding: 2% 10%;
+}
+/* padding 15% from all sides for p tag that is inside comments section */
+#comments p{
+    font-size: 1.5rem;
+    padding: 15%;
+}
+/* image width is reduced to 10%
+added space on the left
+ */
+#comments img{
+    width: 10%;
+    margin-left: 30%;
 }

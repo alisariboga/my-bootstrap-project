@@ -14,10 +14,11 @@ Text Colors:
 .text-dark
 
 justify-content-end  ---> moves elements to the end of the page
-
-navbar-light  -> makes the text dark on navbar(if text is light)
-navbar-dark   -> makes the text light on navbar (if text is dark)
-
+justify-content-center --> moves the elemnts int he center
+Some styles work with certain elements and display types
+justify-content works when the diplay is flex
+navbar-light  -> makes the text dark on navbar
+navbar-dark   -> makes the text light on navbar
 GRID SYSTEM:
 Grid system in bootstrap is used to create rows and columns
 .row-> creats rows
@@ -57,8 +58,7 @@ col-lg-6 col-md-6 col-sm-12
 If screen is large : 6 units
 If screen is middle: 6 units
 If screen is small : 12 units
-
------------Review Day 1 Bootstrap--------
+----------Review Day1 Bootstrap----------
 Bootstrap is for faster development
 Bootstrap is ready-to-use styled css classes
 Certain classses has certain styles
@@ -101,7 +101,7 @@ Always use col inside a row.
 
 
 
- --------
+--------
 Where property is one of:
 
 m - for classes that set margin
@@ -139,3 +139,6 @@ pb-3  :patting buttom
 @media is used for conditions
 Rotate the image by 25 deg if the screen size is fgreater than or equal to 768
 Do not rotate if the screen size is less than 767
+Add below two script to make your code synamic
+ <script src="js/bootstrap.js"></script>
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.js" integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg=" crossorigin="anonymous"></script>

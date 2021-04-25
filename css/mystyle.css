@@ -1,0 +1,19 @@
+.bg-bluee {
+    background-color: #073b4c;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/*making broders circular*/
+.nav-radius {
+    border-radius: 1rem;
+}
+
+/* spaces at the top*/
+.top-part-space{
+    padding: 2% 5%;;
+}

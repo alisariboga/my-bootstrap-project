@@ -13,7 +13,26 @@
     border-radius: 1rem;
 }
 
-/* spaces at the top*/
+/* spaces at the top
+2% -> 2 % padding form top and buttom 
+5% -> 5 % form left and right */
 .top-part-space{
     padding: 2% 5%;;
 }
+
+.top-buttom-45px-space {
+    padding: 45px 0;
+}
+.slogan {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 10%;
+}
+
+.image{
+    transform: rotate(25deg);
+    width: 100%;
+    margin-right: 10%;
+
+} 
